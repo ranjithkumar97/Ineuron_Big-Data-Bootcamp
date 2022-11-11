@@ -68,16 +68,31 @@ Ans===> Keywords are predefined, reserved words used in programming that have sp
 
 Q12. What is indentation? What's the use of indentaion in Python?
 
+Ans===> Python indentation refers to adding white space before a statement to a particular block of code.
+	In most programming languages, indentation is used to properly structure the code
+
 Q13. How can we throw some output in Python?
+
+Ans===> By using Print() function, i.e print("Hello ineuron") ~ Output: Hello ineuron
 
 Q14. What are operators in Python?
 
+Ans===> Operators are used to perform operations on variables and values
+	* Arithmetic operators
+	* Assignment operators
+	* Comparison operators
+	* Logical operators
+	
 Q15. What is difference between / and // operators?
+
+Ans===>	The single forward slash / operator is known as float division, which returns a floating point value.
+	The double forward slash // operator returns a floored value, specifically either a floored integer or floating point value.
 
 Q16. Write a code that gives following as an output.
 ```
 iNeuroniNeuroniNeuroniNeuron
 ```
+
 
 Q17. Write a code to take a number as an input from the user and check if the number is odd or even.
 
