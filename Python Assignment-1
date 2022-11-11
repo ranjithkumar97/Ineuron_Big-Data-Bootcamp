@@ -2,9 +2,9 @@
 Q1. Why do we call Python as a general purpose and high-level programming language?
 
 Ans===> Python is an interpreted language. This means that every time a program is run, 
-its interpreter runs through the code and translates it into machine-readable byte code.
-Because they are not written in machine-readable language,
-Python programs need to be processed before machines can run them.
+	its interpreter runs through the code and translates it into machine-readable byte code.
+	Because they are not written in machine-readable language,
+	Python programs need to be processed before machines can run them.
 
 Q2. Why is Python called a dynamically typed language?
 
@@ -26,18 +26,18 @@ Cons:
 Q4. In what all domains can we use Python?
 
 Ans===> Since Python is the go-to programming language for domains such as artificial intelligence, 
-machine learning and deep learning, it's no surprise that it's also a fundamental tool for any data scientist.
+	machine learning and deep learning, it's no surprise that it's also a fundamental tool for any data scientist.
 
 
 Q5. What are variable and how can we declare them?
 
 Ans===> Variables are used to store value in the memory location.
 
-Any variable name sholud be start with alphabets and the name given to a speicfic memory loaction.
+	Any variable name sholud be start with alphabets and the name given to a speicfic memory loaction.
 
-To declare the variable, we are using assignment operators to store the specific value
+	To declare the variable, we are using assignment operators to store the specific value
 
-i.e (int_var=10)---> int_var is a variable name, = is an assinment operator and 10 is the value
+	i.e (int_var=10)---> int_var is a variable name, = is an assinment operator and 10 is the value
 
 Q6. How can we take an input from the user in Python?
 
@@ -64,7 +64,7 @@ Q11. Can we use keywords as a variable? Support your answer with reason.
 
 Ans===> Keywords are predefined, reserved words used in programming that have special meanings to the compiler.
 
-We cannot use a keyword as a variable name, function name, or any other identifier. 
+	We cannot use a keyword as a variable name, function name, or any other identifier. 
 
 Q12. What is indentation? What's the use of indentaion in Python?
 
