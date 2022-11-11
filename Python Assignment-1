@@ -92,11 +92,29 @@ Q16. Write a code that gives following as an output.
 ```
 iNeuroniNeuroniNeuroniNeuron
 ```
-
-
+Ans===> var_first ="iNeuron"
+	print(var_first*3) ~ Output: iNeuroniNeuroniNeuroniNeuron
+		
 Q17. Write a code to take a number as an input from the user and check if the number is odd or even.
 
+Ans===> For finding odd or even using modulo operator ( num%2==0)
+	
+	int_num=input("Enter the number")
+	casted_num=int(int_num)
+
+	if casted_num%2==0:
+    		print("Here is the even number",int_num)
+	else:
+    		print("Here is the odd number",int_num)
+
+	print("Thank you!")
+
+
 Q18. What are boolean operator?
+
+Ans====> Boolean is a data type that is used to store two values True and False
+	In python, we can evaluate any expression and can get one of two answers
+	While comparing two values the expression is evaluated to either true or false.
 
 Q19. What will the output of the following?
 
@@ -113,15 +131,62 @@ Q20. What are conditional statements in Python?
 
 Q21. What is use of 'if', 'elif' and 'else' keywords?
 
+Ans===> if is used to check the conidtion 
+	elif is also known as Nested if
+	else is used for the 
+
 Q22. Write a code to take the age of person as an input and if age >= 18 display "I can vote". If age is < 18 display "I can't vote".
+
+Ans===> int_age=input("Enter the age")
+	result=int(int_age)
+
+	if (result>=18):
+    		print("I can vote")
+	else:
+    		print("I can't vote")
+
 
 Q23. Write a code that displays the sum of all the even numbers from the given list.
 ```
 numbers = [12, 75, 150, 180, 145, 525, 50]
 ```
 
+Ans===> test_list = [12, 75, 150, 180, 145, 525, 50]
+ 
+# printing original list
+print("The original list is : " + str(test_list))
+ 
+
+even_sum = 0
+ 
+for sub in test_list:
+    for ele in str(sub):
+         
+        # adding in particular summation according to value
+        if int(ele) % 2 == 0:
+            even_sum += int(ele)
+        
+ 
+# printing result
+print("Even digit sum : " + str(even_sum))
+
 
 Q24. Write a code to take 3 numbers as an input from the user and display the greatest no as output.
+
+Ans===> #input first,Second and third number
+
+num1=int(input("Enter First Number"))
+num2=int(input("Enter Second Number"))
+num3=int(input("Enter Third Number"))
+#Check if first number is greater than rest of the two numbers.
+if (num1> num2 and num1> num3):
+    print("The Largest number is", num1)
+#Check if Second number is greater than rest of the two numbers.
+elif (num2 > num1 and num2> num3):
+    print ("The Largest number is", num2)
+else:
+    print ("The Largest
+
 
 Q25. Write a program to display only those numbers from a list that satisfy the following conditions
 
