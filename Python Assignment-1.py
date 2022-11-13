@@ -118,9 +118,9 @@ Ans====> Boolean is a data type that is used to store two values True and False
 
 Q19. What will the output of the following?
 
-1 or 0
+1 or 0 ---> True
 
-0 and 0
+0 and 0 ---->True
 
 True and False and True
 
@@ -128,6 +128,9 @@ True and False and True
 ```
 
 Q20. What are conditional statements in Python?
+
+Ans===> A conditional statement in python, also called a condition constructs, is a statement that accommodates a condition inside itself. 
+	This condition is constructed using the bitwise, boolean, and comparison operators in Python. if, elif and else
 
 Q21. What is use of 'if', 'elif' and 'else' keywords?
 
@@ -186,6 +189,17 @@ elif (num2 > num1 and num2> num3):
     print ("The Largest number is", num2)
 else:
     print ("The Largest
+	   
+	   Anothe way :)
+
+a= input("Enter the first no")
+b=input("Enter the second no")
+c=input("Enter the third no")
+
+d=a,b,c
+
+print("The given no a,b,c is:",d)
+print("The greatest no:",max(d))
 
 
 Q25. Write a program to display only those numbers from a list that satisfy the following conditions
