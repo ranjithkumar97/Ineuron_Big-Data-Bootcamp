@@ -76,23 +76,38 @@ numbers = [12, 75, 150, 180, 145, 525, 50]
 
 Q26. What is a string? How can we declare string in Python?
 
+Ans===> String is 
+
+         str1="Ranjith" #we can declare a string by using double/single quotes
+
 Q27. How can we access the string using its index?
+
+Ans===> str1="Ranjith"
+        print(str1[:8])
 
 Q28. Write a code to get the desired output of the following
 ```
 string = "Big Data iNeuron"
 desired_output = "iNeuron"
 ```
+Ans===>  string = "Big Data iNeuron"
+         print(string[9:16])
 
 Q29. Write a code to get the desired output of the following
 ```
 string = "Big Data iNeuron"
 desired_output = "norueNi"
 ```
+Ans===>  string = "Big Data iNeuron"
+         print(string[16:8:-1])
 
 Q30. Resverse the string given in the above question.
+Ans===> string = "Big Data iNeuron"
+        print(string[16::-1])
 
 Q31. How can you delete entire string at once?
+Ans===> By using clear ( ) method
+      
 
 Q32. What is escape sequence?
 
@@ -100,12 +115,22 @@ Q33. How can you print the below string?
 ```
 'iNeuron's Big Data Course'
 ```
+Ans===> Strr="iNeuron's Big Data Course"
+         print(Strr)
 
 Q34. What is a list in Python?
+Ans====> List is to store multiple item in a single varibale
 
 Q35. How can you create a list in Python?
 
+Ans===> a=[1,2,3,4] #To create a list using square brackets
+
 Q36. How can we access the elements in a list?
+ Ans===> a=[1,2,3,4]
+         print(a[1]) #by using index value or range or using for loop
+         
+         for i in a:
+         print(i)
 
 Q37. Write a code to access the word "iNeuron" from the given list.
 ```
@@ -118,6 +143,11 @@ Q39. Add the word "Big" in the 3rd index of the given list.
 ```
 lst = ["Welcome", "to", "Data", "course"]
 ```
+Ans===> lst = ["Welcome", "to", "Data", "course"]
+        lst.insert(2,"Big")
+
+        print(lst)
+
 
 Q40. What is a tuple? How is it different from list?
 
