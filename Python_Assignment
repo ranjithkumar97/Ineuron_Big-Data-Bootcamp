@@ -289,6 +289,15 @@ lst = [1,2,3,"Hi",[45,54, "iNeuron"], "Big Data"]
 
 Q38. Take a list as an input from the user and find the length of the list.
 
+Ans===> a=int(input("Enter the emp id"))
+	b=str(input("Enter your name"))
+	c=int(input("Enter your age"))
+
+
+	z=a,b,c
+	var1=list(z)
+	print(len(var1))
+
 Q39. Add the word "Big" in the 3rd index of the given list.
 ```
 lst = ["Welcome", "to", "Data", "course"]
@@ -301,9 +310,30 @@ Ans===> lst = ["Welcome", "to", "Data", "course"]
 
 Q40. What is a tuple? How is it different from list?
 
+Ans===>	Tuple is to store multiple items in a single varibales
+
 Q41. How can you create a tuple in Python?
 
+Ans===> t1=(112,"hi",2) 
+	print(t1)
+
 Q42. Create a tuple and try to add your name in the tuple. Are you able to do it? Support your answer with reason.
+
+Ans===> In tuple, we cannot change or modify one tuple is cretaed, instead of that we can change with help of list and aslo convert back to tuple
+
+	t1=(12,'ranjith',25)
+
+	var=list(t1)
+
+	print("The list before updating", var)
+
+	var.insert(1,"Kumar")
+
+	print("After updated the value",var)
+
+	ar=tuple(var)
+
+	print("Result",ar)
 
 Q43. Can two tuple be appended. If yes, write a code for it. If not, why?
 
@@ -311,7 +341,11 @@ Q44. Take a tuple as an input and print the count of elements in it.
 
 Q45. What are sets in Python?
 
+Ans===> Set is to store multiple items in a single varibales
+
 Q46. How can you create a set?
+
+Ans==> s1={1,2,3,"Ranjith"}
 
 Q47. Create a set and add "iNeuron" in your set.
 
