@@ -464,18 +464,18 @@ Q75. How can you loop over a dictionary?
 Q76. Write a Python program to find the factorial of a given number.
 
 Ans===> num=int(input("Enter a number to find factorial: "))
-#takes input from user
-factorial=1;  #declare and initialize factorial variable to one
-#check if the number is negetive ,positive or zero
-if num<0:
-   print("Factorial does not defined for negative integer");
-elif(num==0):
-    print("The factorial of 0 is 1");
-else:
-  while(num>0):
+	#takes input from user
+	factorial=1;  #declare and initialize factorial variable to one
+	#check if the number is negetive ,positive or zero
+	if num<0:
+   	 print("Factorial does not defined for negative integer");
+	elif(num==0):
+     	 print("The factorial of 0 is 1");
+	else:
+  	while(num>0):
         factorial=factorial*num
         
-        num=num-1
+        	num=num-1
         
   print("factorial of the given number is: ")
   print(factorial)
