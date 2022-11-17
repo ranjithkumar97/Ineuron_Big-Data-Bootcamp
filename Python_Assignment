@@ -337,7 +337,18 @@ Ans===> In tuple, we cannot change or modify one tuple is cretaed, instead of th
 
 Q43. Can two tuple be appended. If yes, write a code for it. If not, why?
 
+Ans===> Tuple is immutable, we cannot add or remove once tuple is created,
+	however we can convert it into list and we can append the elements and again convert it back to tuple
+
 Q44. Take a tuple as an input and print the count of elements in it.
+
+Ans===> a=input("Enter your name")
+	b=input("Enter your name")
+	c=input("Enter your age")
+	z=(a,b,c)
+	print(type(z))
+	print(z.count("Ranjith"))
+	
 
 Q45. What are sets in Python?
 
@@ -349,11 +360,26 @@ Ans==> s1={1,2,3,"Ranjith"}
 
 Q47. Create a set and add "iNeuron" in your set.
 
+Ans===> s1={1,'ranjith',234}
+
+	s1.add("iNeuron")
+	print(s1)
+
 Q48. Try to add multiple values using add() function.
+
+Ans===> s1={1,'ranjith',234}
+
+	s1.add("iNeuron")
+	s1.add("Welcome to")
+	print(s1)
 
 Q49. How is update() different from add()?
 
+Ans===> Add() is used to add the item in set, however update () is used like inserting the items from (list/tuple/dict) 
+
 Q50. What is clear() in sets?
+
+Ans===> Clear () is used for clearing the values in the set, it also known as empty set after clear () is used.
 
 Q51. What is frozen set?
 
@@ -363,11 +389,17 @@ Q53. What is union() in sets? Explain via code.
 
 Q54. What is intersection() in sets? Explain via code.
 
-Q55. What is dictionary ibn Python?
+Q55. What is dictionary in Python?
+
+ Ans===> Dictionary is used to store multiple items using key and value pairs
 
 Q56. How is dictionary different from all other data structures.
 
+Ans: Dict is uses key: Value pairs
+
 Q57. How can we delare a dictionary in Python?
+
+Ans===>	 D1={1:"Ranjith") #By using key and value like a mapping the values with the help of keys
 
 Q58. What will the output of the following?
 ```
@@ -375,7 +407,12 @@ var = {}
 print(type(var))
 ```
 
+Ans===> <class 'dict'> #Empty dict
+
+
 Q59. How can we add an element in a dictionary?
+
+Ans==> With the help of key
 
 Q60. Create a dictionary and access all the values in that dictionary.
 
