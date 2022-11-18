@@ -433,30 +433,59 @@ Ans===> return values using Key
 
 Q63. What is the use of items() function?
 
+Ans===> The items () method returns a view object. The view object contains the key-value pairs of the dictionary, as tuples in a list.
+
 
 Q64. What is the use of pop() function?
 
+Ans===> The pop () method removes (pops) the last element of an array. The pop () method changes the original array. 
+
 Q65. What is the use of popitems() function?
+
+Ans==>  The popitem () method removes the item that was last inserted into the dictionary
 
 Q66. What is the use of keys() function?
 
+Ans===> The keys () method in Python Dictionary, returns a view object that displays a list of all the keys in the dictionary in order of insertion using Python
+
 Q67. What is the use of values() function?
 
+Ans===>  The values () method returns a view object. The view object contains the values of the dictionary, as a list. 
+	 The view object will reflect any changes done to the dictionary
+	 
 Q68. What are loops in Python?
 
+Ans===> A concept in Python programming package that allows repetition of certain steps, or printing or execution of the similar set of steps repetitively, 
+	based on the keyword that facilitates such functionality being used, and that steps specified under the keyword automatically indent .
+	
 Q69. How many type of loop are there in Python?
+
+Ans===>There are 2 loops, for loop and While loop.
 
 Q70. What is the difference between for and while loops?
 
+Ans===> the number of iterations to be conducted is already known whereas in while loop the number of iterations are not known.
+
 Q71. What is the use of continue statement?
+
+Ans===> Python continue statement is used to skip the execution of the current iteration of the loop
 
 Q72. What is the use of break statement?
 
+Ans===> Break statement The break statement is used to terminate the loop or statement in which it is present
+
 Q73. What is the use of pass statement?
+
+Ans===> The Python Pass statement is used as a placeholder within loops, functions, classes, and if-statements that will be implemented later.
 
 Q74. What is the use of range() function?
 
+Ans===> The range () function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and stops before a specified number
+
 Q75. How can you loop over a dictionary?
+
+Ans===> To loop or iterate over each element of a dictionary variable, you have to use the for loop of Python. You can get the dictionary variable keys and values in the output. 
+	Use the for loop of Python and use only keys or values in your programming.
 
 
 ### Coding problems
