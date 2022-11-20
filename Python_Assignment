@@ -559,6 +559,10 @@ Input : [('Sachin', 10), ('MSD', 7), ('Kohli', 18), ('Rohit', 45)]
 Output : {'Sachin': 10, 'MSD': 7, 'Kohli': 18, 'Rohit': 45}
 ```
 
+Ans===> A= [('Sachin', 10), ('MSD', 7), ('Kohli', 18), ('Rohit', 45)]
+	ab=dict(A)
+	print(ab)
+
 Q93. Write a Python program to create a list of tuples from given list having number and its cube in each tuple.
 ```
 Input: list = [9, 5, 6]
