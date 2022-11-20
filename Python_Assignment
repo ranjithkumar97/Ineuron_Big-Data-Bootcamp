@@ -255,10 +255,14 @@ Ans===> string = "Big Data iNeuron"
         print(string[16::-1])
 
 Q31. How can you delete entire string at once?
-Ans===> By using clear ( ) method
+Ans===> By using clear ( ) method or Del str --->del keyword to delete the string variable
       
 
 Q32. What is escape sequence?
+
+Ans===> An escape sequence is a special character used in the form of backslash(\) followed by a character that is required.
+	These characters are used to represent whitespace.
+	Whitespace gives characters like space, tab, formfeed, vertical tab.
 
 Q33. How can you print the below string?
 ```
@@ -284,7 +288,11 @@ Q36. How can we access the elements in a list?
 Q37. Write a code to access the word "iNeuron" from the given list.
 ```
 lst = [1,2,3,"Hi",[45,54, "iNeuron"], "Big Data"]
-``` 
+
+Ans===>	lst = [1,2,3,"Hi",[45,54, "iNeuron"], "Big Data"]
+
+	a=lst[4]
+	print(a[2])
 
 Q38. Take a list as an input from the user and find the length of the list.
 
@@ -318,7 +326,7 @@ Ans===> t1=(112,"hi",2)
 
 Q42. Create a tuple and try to add your name in the tuple. Are you able to do it? Support your answer with reason.
 
-Ans===> In tuple, we cannot change or modify one tuple is cretaed, instead of that we can change with help of list and aslo convert back to tuple
+Ans===> In tuple, we cannot change or modify once tuple is cretaed, instead of that we can change with help of list and aslo convert back to tuple
 
 	t1=(12,'ranjith',25)
 
@@ -411,7 +419,7 @@ Ans===> <class 'dict'> #Empty dict
 
 Q59. How can we add an element in a dictionary?
 
-Ans==> With the help of key
+Ans==> With the help of key---> key: value pairs
 
 Q60. Create a dictionary and access all the values in that dictionary.
 
@@ -491,23 +499,13 @@ Ans===> To loop or iterate over each element of a dictionary variable, you have 
 ### Coding problems
 Q76. Write a Python program to find the factorial of a given number.
 
-Ans===> num=int(input("Enter a number to find factorial: "))
-	#takes input from user
-	factorial=1;  #declare and initialize factorial variable to one
-	#check if the number is negetive ,positive or zero
-	if num<0:
-   	 print("Factorial does not defined for negative integer");
-	elif(num==0):
-     	 print("The factorial of 0 is 1");
-	else:
-  	while(num>0):
-        factorial=factorial*num
-        
-        	num=num-1
-        
-  print("factorial of the given number is: ")
-  print(factorial)
-
+Ans===> def fact(n):
+	 f=1
+	  for i in range(1,n+1):
+	   f=f*i
+	  return f
+	x=5
+	print(fact(x))
 
 Q77. Write a Python program to calculate the simple interest. Formula to calculate simple interest is SI = (P*R*T)/100
 
