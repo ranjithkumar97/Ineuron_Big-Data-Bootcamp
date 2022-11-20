@@ -509,7 +509,23 @@ Ans===> def fact(n):
 
 Q77. Write a Python program to calculate the simple interest. Formula to calculate simple interest is SI = (P*R*T)/100
 
+Ans===> p=float(input("Enter the principle amount"))
+	r=float(input("Enter the rate"))
+	t=float(input("Enter time in no of years"))
+
+	si=(p*r*t)/100
+
+	print(("The simple interest is",si))
+
 Q78. Write a Python program to calculate the compound interest. Formula of compound interest is A = P(1+ R/100)^t.
+
+Ans===> p=float(input("Enter the principle amount"))
+	r=float(input("Enter the rate"))
+	t=float(input("Enter the time in no of years"))
+	
+	A = P(1+ R/100)^t.
+
+	print(("The simple interest is",A))
 
 Q79. Write a Python program to check if a number is prime or not.
 
