@@ -529,27 +529,183 @@ Ans===> p=float(input("Enter the principle amount"))
 
 Q79. Write a Python program to check if a number is prime or not.
 
+Ans===> 	# given number
+		number = 5
+		# intializing a temporary variable with False
+		temp = False
+		# We will check if the number is greater than 1 or not
+		# since prime numbers starts from 2
+		if number > 1:
+    		# checking the divisors of the number
+    		 for i in range(2, number):
+        	if (number % i) == 0:
+           	 # if any divisor is found then set temp to true since it is not prime number
+            	 temp = True
+            	# Break the loop if it is not prime
+            	 break
+		if(temp):
+    			print("The given number", number, "is not prime number")
+		else:
+    			print("The given number", number, "is prime number")
+		
 Q80. Write a Python program to check Armstrong Number.
 
+Ans===>	def Armstrong(n,o):
+    		sum = 0
+    	temp = n
+    	while temp > 0:
+       	digit = temp % 10
+		sum += digit ** o
+       		temp = temp//10
+    	if n == sum:
+       		print(n,"is an Armstrong number")
+    	else:
+       		print(n,"is not an Armstrong number")
+    
+	num = int(input("Enter Number: "))
+	order = len(str(num))
+	Armstrong(num,order)
+	
 Q81. Write a Python program to find the n-th Fibonacci Number.
+
+Ans===> 
+	def Fibonacci(n):
+    		if n<= 0:
+       			 print("Incorrect input")
+    			# First Fibonacci number is 0
+    		elif n == 1:
+        		return 0
+    			# Second Fibonacci number is 1
+    		elif n == 2:
+        		return 1
+    		else:
+        		return Fibonacci(n-1)+Fibonacci(n-2)
+ 
+ 
+	print(Fibonacci(10))
 
 Q82. Write a Python program to interchange the first and last element in a list.
 
 Q83. Write a Python program to swap two elements in a list.
 
+Ans===> NumList = []
+ 
+	#how many elements in list
+	Number = int(input("How many elements in list :- "))
+     
+	for i in range(1, Number + 1):
+	    value = int(input("Please enter the Value of %d Element :- " %i))
+	    NumList.append(value)
+
+	#print list before swapping
+	print("\nList before swapping of elements :-\n",NumList)
+
+		# Swap list 
+	temp=NumList[0]
+	NumList[0]=NumList[Number-1]
+	NumList[Number-1]=temp
+   
+print("List after swapping of elements :-\n",NumList) 
+
+
 Q84. Write a Python program to find N largest element from a list.
+
+Ans===> # Python program to find largest
+	# number in a list
+
+	# list of numbers
+	list1 = [10, 20, 4, 45, 99]
+
+	# sorting the list
+	list1.sort()
+
+	# printing the last element
+	print("Largest element is:", list1[-1])
 
 Q85. Write a Python program to find cumulative sum of a list.
 
+Ans===> # Python code to get the Cumulative sum of a list
+	def Cumulative(lists):
+	    cu_list = []
+	    length = len(lists)
+	    cu_list = [sum(lists[0:x:1]) for x in range(0, length+1)]
+	    return cu_list[1:]
+
+	
+	lists = [10, 20, 30, 40, 50]
+	print (Cumulative(lists))
+
 Q86. Write a Python program to check if a string is palindrome or not.
+
+Ans===> def isPalindrome(s):
+	    return s == s[::-1]
+
+
+	
+	s = "malayalam"
+	ans = isPalindrome(s)
+
+	if ans:
+	    print("Yes")
+	else:
+	    print("No")
 
 Q87. Write a Python program to remove i'th element from a string.
 
+Ans===>	test_str = "Ranjith kumar"
+
+	# Removing char at pos 3
+	new_str = ""
+
+	for i in range(len(test_str)):
+	    if i != 2:
+		new_str = new_str + test_str[i]
+
+	# Printing string after removal
+	print ("The string after removal of i'th character : " + new_str)
+
 Q88. Write a Python program to check if a substring is present in a given string.
+
+Ans===> def check(str1, sstr): 
+	   if (str1.find(sstr) == -1): 
+	      print(sstr,"IS NOT PRESENT IN THE GIVEN STRING") 
+	   else: 
+	      print(sstr,"IS PRESENT IN THE GIVEN STRING") 
+	
+	str1 = input("Enter the string ::>")
+	sstr=input("Enter Substring ::>")
+	check(str1, sstr) 
 
 Q89. Write a Python program to find words which are greater than given length k.
 
+Ans===> myStr =  input('Enter the string : ')
+	k = int(input('Enter k  (value for accepting string) : '))
+	largerStrings = []
+
+	
+	words = myStr.split(" ")
+	for word in words:
+		if len(word) > k:
+			largerStrings.append(word)
+
+	
+	print("All words which are greater than given length ", k, "are ", largerStrings)
+
 Q90. Write a Python program to extract unquire dictionary values.
+
+	Ans===> my_dict = {'hi' : [5,3,8, 0],
+	   'first' : [22, 51, 63, 77],
+	   'second' : [7, 0, 22],
+	   'third' : [12, 11, 45],
+	   'fourth' : [56, 31, 89, 90]}
+
+	print("The dictionary is : ")
+	print(my_dict)
+
+	my_result = list(sorted({elem for val in my_dict.values() for elem in val}))
+
+	print("The unique values are : ")
+	print(my_result)
 
 Q91. Write a Python program to merge two dictionary.
 
