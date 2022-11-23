@@ -1,14 +1,30 @@
 Q1. What is the purpose of Python's OOP?
 
+Ans===> In Python, object-oriented Programming (OOPs) is a programming paradigm that uses objects and classes in programming.
+        Main Concepts of Object-Oriented Programming (OOPs) are Class,  Objects, Polymorphism,  Encapsulation, Inheritance, 
+        Data Abstraction and the purpose is  when it makes developing the solution quicker and
+        when it makes the end result easier to read, understand and maintain. 
+
+ 
 Q2. Where does an inheritance search look for an attribute?
 
+Ans===> All of these objects are namespaces (packages of variables), and the inheritance search is simply a search of the tree
+        from bottom to top looking for the lowest occurrence of an attribute name. Code implies the shape of such trees
+
 Q3. How do you distinguish between a class object and an instance object?
+
+Ams===> Class obj: It is global access with respective to particular class
+        Instance obj: It is tightly coupled with that particular object by using (self) reference itself.
 
 Q4. What makes the first argument in a class’s method function special?
 
 Q5. What is the purpose of the init method?
 
+Ans===> All classes have a function called __init__(), which is always executed when the class is being initiated.
+        Use the __init__() function to assign values to object properties, or other operations that are necessary to do when the object is being created
+  
 Q6. What is the process for creating a class instance?
+
 
 Q7. What is the process for creating a class?
 
