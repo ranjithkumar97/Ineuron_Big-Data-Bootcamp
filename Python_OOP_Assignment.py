@@ -62,7 +62,6 @@ Q23. What is the purpose of the try statement?
 
 Q24. What are the two most popular try statement variations?
 
-
 Q25. What is the purpose of the raise statement?
 
 Q26. What does the assert statement do, and what other statement is it like?
