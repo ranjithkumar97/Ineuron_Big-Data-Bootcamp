@@ -470,6 +470,7 @@ Q69. How many type of loop are there in Python?
 
 Ans===>There are 2 loops, for loop and While loop.
 
+
 Q70. What is the difference between for and while loops?
 
 Ans===> the number of iterations to be conducted is already known whereas in while loop the number of iterations are not known.
