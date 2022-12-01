@@ -6,7 +6,6 @@ Ans===> Python is an interpreted language. This means that every time a program 
 	Because they are not written in machine-readable language,
 	Python programs need to be processed before machines can run them.
 
-
 Q2. Why is Python called a dynamically typed language?
 
 Ans===> It doesn't know about the type of variable until the code is run.
