@@ -18,6 +18,7 @@ Ams===> Class obj: It is global access with respective to particular class
 
 Q4. What makes the first argument in a class’s method function special?
 
+
 Q5. What is the purpose of the init method?
 
 Ans===> All classes have a function called __init__(), which is always executed when the class is being initiated.
