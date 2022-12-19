@@ -22,7 +22,6 @@ Cons:
 		---> Speed limitations and Problems with threading
 		---> Memory consumption
 		
-
 Q4. In what all domains can we use Python?
 
 Ans===> Since Python is the go-to programming language for domains such as artificial intelligence, 
