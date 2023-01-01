@@ -4,7 +4,6 @@ Ans===> In Python, object-oriented Programming (OOPs) is a programming paradigm 
         Main Concepts of Object-Oriented Programming (OOPs) are Class,  Objects, Polymorphism,  Encapsulation, Inheritance, 
         Data Abstraction and the purpose is  when it makes developing the solution quicker and
         when it makes the end result easier to read, understand and maintain. 
-
 Q2. Where does an inheritance search look for an attribute?
 
 Ans===> All of these objects are namespaces (packages of variables), and the inheritance search is simply a search of the tree
