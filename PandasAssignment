@@ -1,6 +1,15 @@
 Q1. How do you load a CSV file into a Pandas DataFrame?
 
+Ans==> By using, read_CSV function
+
+i.e,
+  import pandas as pd
+  df=pd.read_csv("........link...")
+
 Q2. How do you check the data type of a column in a Pandas DataFrame?
+
+Ans==> To check the data type we use dtype
+  
 
 Q3. How do you select rows from a Pandas DataFrame based on a condition?
 
